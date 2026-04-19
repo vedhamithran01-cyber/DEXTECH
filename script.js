@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Scroll Reveal Animation
-    const revealElements = document.querySelectorAll('.portfolio-card, .tech-category, .section-title');
+    const revealElements = document.querySelectorAll('.portfolio-card, .tech-category, .section-title, .developer-card');
     
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
